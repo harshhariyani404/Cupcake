@@ -1,0 +1,146 @@
+@media only screen and (max-width:415px) {
+    .container {
+        width: auto;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .bg_img {
+        height: 96vh;
+        border-radius: 0 0 24px 24px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    .left {
+        width: 25%;
+        margin-left: 30px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        font-size: 28px;
+        padding: 10px;
+        border-radius: 12px;
+        background: rgba(255,255,255,0.15);
+        transition: background 0.2s;
+    }
+    .burger:active {
+        background: rgba(255,105,180,0.15);
+    }
+
+    .our {
+        height: 790px;
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+
+    .p {
+        margin: 25px 0 10px 0;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .p1 {
+        width: 90%;
+        font-size: 18px;
+        margin: 0 auto 20px auto;
+        color: #555;
+    }
+
+    .part2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .part1 h3,
+    .part3 h3 {
+        font-size: 24px;
+        margin: 24px 0;
+        color: #ff69b4;
+    }
+
+    .iteam1 {
+        width: 95%;
+        border-radius: 16px;
+        box-shadow: 0 2px 8px rgba(255,105,180,0.08);
+        margin-bottom: 18px;
+        padding: 10px 0;
+    }
+
+    .img1 img {
+        width: 180px;
+        height: 180px;
+        margin-top: 16px;
+        border-radius: 10px;
+        object-fit: cover;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .w {
+        padding: 18px 8px;
+        font-size: 16px;
+    }
+
+    .w p {
+        margin-top: 10px;
+    }
+
+    .details {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .l_details input,
+    .r_details input {
+        width: 95%;
+        border-radius: 20px;
+        font-size: 15px;
+        padding: 8px 12px;
+    }
+
+    .l_details p,
+    .r_details p {
+        margin: 6px 0;
+        font-size: 15px;
+    }
+
+    .submit button {
+        width: 95%;
+        border-radius: 22px;
+        font-size: 16px;
+        padding: 10px 0;
+        margin-top: 18px;
+        background: linear-gradient(90deg, #ff69b4 0%, #ffb347 100%);
+        box-shadow: 0 2px 8px rgba(255,105,180,0.10);
+        transition: background 0.2s, transform 0.2s;
+    }
+    .submit button:active {
+        background: linear-gradient(90deg, #ffb347 0%, #ff69b4 100%);
+        transform: scale(0.98);
+    }
+
+    .information {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 40px auto 0 auto;
+        gap: 18px;
+    }
+
+    .information h3 {
+        font-size: 18px;
+        color: #ff69b4;
+    }
+
+    .down_footer {
+        font-size: 12px;
+        padding: 12px 0;
+        background: #1a1a1a;
+        border-radius: 0 0 12px 12px;
+    }
+}
